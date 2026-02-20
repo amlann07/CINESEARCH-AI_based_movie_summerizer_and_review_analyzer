@@ -71,6 +71,66 @@ User → React Frontend → Backend Middleware → External APIs → Processed R
     <li>Async/Await for non-blocking operations</li>
     <li>Environment Variables for secure API key handling</li>
   </ul>
+  <h2>📂 Project Structure</h2>
+
+<pre>
+CineSearch/
+│
+├── backend/
+│   ├── node_modules/
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── AIAnalysis.jsx
+│   │   │   ├── Badge.jsx
+│   │   │   ├── Button.jsx
+│   │   │   ├── Cast.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── MovieCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Rating.jsx
+│   │   │   ├── SearchBar.jsx
+│   │   │   └── Section.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── MovieDetails.jsx
+│   │   │
+│   │   ├── utils/
+│   │   │   └── formatters.js
+│   │   │
+│   │   ├── data/
+│   │   │   └── mockMovies.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── index.html
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── vite.config.js
+│
+└── README.md
+</pre>
+<h2>🚀 Running the Project</h2>
+
+<h3>✅ Backend</h3>
+<pre style="background-color:#111827; color:#22c55e; padding:15px; border-radius:8px; font-family:monospace;">
+node server.js
+</pre>
+
+<h3>✅ Frontend</h3>
+<pre style="background-color:#111827; color:#38bdf8; padding:15px; border-radius:8px; font-family:monospace;">
+npm start
+</pre>
 
   <hr>
 
